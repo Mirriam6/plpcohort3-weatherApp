@@ -11,7 +11,7 @@ button.addEventListener("click", function () {
   )
     .then((response) => response.json())
     .then(displayData)
-    .catch((err) => alert("Please Enter Correct City Name"));
+    .catch((err) => alert("Please Enter a Correct City Name"));
 });
 
 const displayData = (weather) => {
